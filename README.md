@@ -1,4 +1,4 @@
-Customer Churn Analysis Dashboard
+CUSTOMER CHURN ANALYSIS DASHBOARD
 
 A Power BI report for understanding customer churn behavior and key business drivers.
 
