@@ -1,66 +1,39 @@
-CUSTOMER CHURN ANALYSIS DASHBOARD
+This project builds a complete end-to-end machine learning pipeline to predict customer churn and uncover the key factors driving customer loss. Using Python for data cleaning, exploratory analysis, feature engineering, and model training and Power BI for interactive visual insights the solution combines both technical rigor and business relevance.
 
-A Power BI report for understanding customer churn behavior and key business drivers.
+⭐The workflow includes:
 
-This Power BI dashboard provides an end-to-end analysis of customer churn using demographic and service-related data. It helps businesses understand:
+Preprocessing & cleaning the Telco Customer dataset
 
-How many customers are leaving (churn rate)
+Exploratory Data Analysis (EDA) to understand customer behavior
 
-Who is more likely to churn
+Feature engineering (tenure grouping, one-hot encoding)
 
-What factors influence churn (tenure, charges, contract type)
+Model training using a Random Forest classifier
 
-How key metrics trend across customer segments
+Evaluating model performance and extracting feature importance
 
-Key Metrics & KPIs
+Generating churn probability scores for all customers
 
-1️⃣ Total Customers :
-7,043 customers included in the dataset.
+Building a Power BI dashboard to visualize churn patterns and risk segments
 
-2️⃣ Overall Churn Rate :
-27% of customers have left.
+⭐The final deliverables include:
 
-3️⃣ Average Churn Probability :
-0.15 (15% average predicted churn likelihood)
+A trained machine learning model
 
-4️⃣ Customer Retention vs Churn :
-73% retained
-27% churned
+Churn probability scores for each customer
 
-Dashboard Visuals
+Feature importance insights showing the strongest churn predictors
 
-✔ Monthly Charges by Churn
+A multi-page Power BI report illustrating customer behavior, churn trends, and actionable insights
 
-Shows how customers with higher monthly charges are more likely to churn.
+🎯 Key Insights from the Analysis
 
-✔ Customer Retention vs Churn (Donut Chart)
+Month-to-month contract customers have the highest churn rate, indicating low long-term commitment and higher risk.
 
-Visualizes the percentage of churned vs retained customers.
+Customers with longer tenure are significantly less likely to churn, suggesting loyalty improves over time.
 
-✔ Churn Rate by Tenure Group
+Higher monthly charges correlate strongly with churn, meaning price-sensitive customers are more likely to leave.
 
-Highest churn in 0–1 year customers
+Automatic payment methods are associated with lower churn, highlighting the role of payment convenience in retention.
 
-Lower churn among customers with longer tenure
-
-✔ Detailed Table
-
-Includes:
-
-Customer ID
-
-Tenure group
-
-Monthly charges
-
-Contract type
-
-🎯 Insights from the Dashboard
-
-Customers with shorter tenure churn at higher rates.
-
-Higher monthly charges are associated with increased churn.
-
-Customers with month-to-month contracts have the highest churn probability.
-
-Long-term contract customers (1–2 years, 2+ years) are more loyal.
+These insights help businesses understand which customer segments need attention and what strategies can reduce churn.
